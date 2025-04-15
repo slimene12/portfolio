@@ -1,0 +1,64 @@
+.hero {
+  margin-top: 3rem;
+}
+/*=======================
+left section ==> avator
+=========================*/
+section.hero .left-section {
+  flex-grow: 1;
+}
+section.hero .parent-avator.flex {
+  align-items: end;
+  gap: 0.6rem;
+  min-height: 90px;
+}
+section.hero .avator {
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 10px;
+  box-shadow: 2px 2px 20px white inset;
+}
+.light section.hero .avator {
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 10px;
+  box-shadow: 2px 2px 20px rgb(101, 95, 95) inset;
+}
+section.hero .icon-verified {
+  color: var(--blue);
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+section.hero h1.title {
+  font-size: 2.85rem;
+  line-height: 3.3rem;
+  margin: 24px 0;
+  color: var(--title);
+}
+section.hero p.subtitle {
+  color: var(--subtitle);
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  margin-bottom: 32px;
+}
+section.hero .icons {
+  font-size: 1.3rem;
+  gap: 20px;
+  color: var(--subtitle);
+}
+section.hero .icon:hover {
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: var(--title);
+  transition: 0.3s;
+}
+
+/*==========================
+right section ==> animation
+============================*/
+
+@media (max-width: 1200px) {
+  .developer-animation {
+    display: none;
+  }
+}
