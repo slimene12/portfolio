@@ -23,12 +23,22 @@ const Hero = () => {
           transition={{ duration: 5 }}
           className='title'
         >
-          Software,designer,founder,and amateur astronaut
+          From teaching math to building apps — I love solving problems and
+          creating awesome web projects!
         </motion.h1>
         <p className='subtitle'>
-          Do voluptate Lorem ullamco ullamco pariatur culpa voluptate occaecat
-          sunt culpa commodo pariatur mollit. Duis nostrud et do anim proident
-          reprehenderit aliqua.
+          Hi, I’m khames, a full-stack developer with a passion for building
+          modern, user-friendly web applications.
+          <br /> Before diving into tech, I spent over 25 years teaching
+          mathematics, which shaped my love for problem-solving and clear
+          communication-skills I now bring into every project.
+          <br /> I work mainly with React, Next.js, Tailwind CSS, Node.js, and
+          databases like MongoDB and PostgreSQL using tools like Prisma ,Express
+          and mongoose, Express and Sequelize, writing clean code in both
+          JavaScript and TypeScript.
+          <br /> Today, I’m excited to grow as a freelance developer, helping
+          businesses and individuals bring their ideas to life through clean,
+          efficient code.
         </p>
         <div className='icons flex'>
           <div className='icon icon-twitter'></div>

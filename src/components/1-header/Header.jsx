@@ -26,7 +26,7 @@ const Header = () => {
       <nav>
         <ul className='flex'>
           <li>
-            <a href=''>about</a>
+            <a href=''>About Me</a>
           </li>
           <li>
             <a href=''>Articles</a>
@@ -69,7 +69,7 @@ const Header = () => {
               />
             </li>
             <li>
-              <a href=''>about</a>
+              <a href=''>About Me</a>
             </li>
             <li>
               <a href=''>Articles</a>
